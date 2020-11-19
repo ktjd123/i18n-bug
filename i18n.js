@@ -5,7 +5,10 @@ module.exports = new NextI18Next({
 	otherLanguages: ["ko-KR", "en", "zh", "zh-TW"],
 	localePath: path.resolve("./public/static/locales"),
 	cleanCode: true,
-	fallbackLng: "en",
+	fallbackLng: {
+		ko: ["ko-KR"],
+		default: ["en"],
+	},
 
 	// Locize
 	backend: {
