@@ -5,6 +5,7 @@ import { i18n as i, withTranslation } from "../i18n";
 class Index extends Component {
 	componentDidMount() {
 		console.log(navigator.language, i.language, i.languages);
+		i.changeLanguage("ko-KR");
 	}
 
 	static async getInitialProps({ query }) {
