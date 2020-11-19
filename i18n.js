@@ -2,7 +2,7 @@ const NextI18Next = require("next-i18next").default;
 const path = require("path");
 
 module.exports = new NextI18Next({
-	otherLanguages: ["ko-KR", "en", "zh", "zh-TW"],
+	otherLanguages: ["ko-KR", "ko", "en", "zh", "zh-TW"],
 	localePath: path.resolve("./public/static/locales"),
 	cleanCode: true,
 	fallbackLng: "en",
