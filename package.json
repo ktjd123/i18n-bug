@@ -1,0 +1,23 @@
+{
+	"name": "-",
+	"version": "1.0.0",
+	"main": "./dist/index.js",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start -p ${PORT:=3000}"
+	},
+	"devDependencies": {},
+	"dependencies": {
+		"next": "^10.0.2",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"i18next": "^19.8.4",
+		"i18next-locize-backend": "^4.1.8",
+		"next-i18next": "^7.0.1"
+	}
+}
